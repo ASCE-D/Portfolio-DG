@@ -123,7 +123,7 @@ export const projectDetails = [
   {
     title: "UrbanMarketplace",
     image: projectImage1,
-    description: `A e-commerce website involves designing an intuitive frontend with product pages, shopping cart, and a streamlined checkout process. Meanwhile, the backend manages user data, product listings, order processing, and ensures robust security. The admin panel empowers administrators to oversee users, orders, content, and access critical insights through reports and analytics. Integrating Stripe as the payment gateway ensures secure transactions, subscription management, and real-time payment event updates via webhooks, while a testing environment ensures payment accuracy before going live. Collaboration with experts and staying updated with industry trends is essential for a successful e-commerce venture.`,
+    description: `Responsive E-commerce website`,
     techstack: "Redux · MongoDB · Express.js · Node.js · React.js",
     previewLink: "https://urban-marketplace.vercel.app/",
     githubLink: "https://github.com/ASCE-D/UrbanMarketplace",
@@ -131,7 +131,7 @@ export const projectDetails = [
   {
     title: "ExamProcter",
     image: projectImage2,
-    description: `This is project is mainly based on Django framework and main purpose is to develop an anti-cheat platform to conduct fair online exams in this period.
+    description: `Anti-cheat platform to conduct fair google forms tests.
     `,
     techstack: "Django, sqlite3, Html/css, javascript, bootstrap",
     previewLink: "https://github.com/ASCE-D/examProctor",
@@ -164,8 +164,7 @@ export const projectDetails = [
   {
     title: "Plastic_World",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Products Gallery for Vanilla CSS practice`,
     techstack: "HTML/CSS, JavaScript, Bootstrap",
     previewLink: "asce-d.github.io/Plastic_World/",
     githubLink: "https://github.com/ASCE-D/Plastic_World",
