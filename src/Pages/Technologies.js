@@ -21,6 +21,12 @@ function Technologies() {
     github,
     django,
     python,
+    aws,
+    graphql,
+    redis,
+    next,
+    postgresql,
+    typescript,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -33,24 +39,22 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-      <img src={html} title="html" alt="" />
-      <img src={css} title="CSS" alt="" />
-      <img src={js} title="JavaScript" alt="" />
-      <img src={react} title="React" alt="" />
-      <img src={redux} title="Redux" alt="" />
-      <img src={tailwind} title="Tailwind CSS" alt="" />
-      <img src={bootstrap} title="Bootstrap" alt="" />
-      <img src={node} title="NODE" alt="" />
-      <img src={express} title="Express" alt="" />
-      <img src={mongodb} title="MongoDB" alt="" />
-      
-      {/* <img src={vscode} title="VSCode" alt="" />
-      <img src={postman} title="Postman" alt="" /> */}
-      {/* <img src={npm} title="NPM" alt="" /> */}
-      {/* <img src={git} title="Git" alt="" /> */}
-      {/* <img src={github} title="GitHub" alt="" /> */}
-      <img src={django} title="Django" alt="" />
-      <img src={python} title="Python" alt="" />
+        <img src={aws} title="AWS" alt="AWS" />
+        <img src={graphql} title="GraphQL" alt="GraphQL" />
+        <img src={redis} title="Redis" alt="Redis" />
+        <img src={next} title="Next.js" alt="Next.js" />
+        <img src={postgresql} title="PostgreSQL" alt="PostgreSQL" />
+        <img src={typescript} title="TypeScript" alt="TypeScript" />
+        <img src={html} title="html" alt="HTML" />
+        <img src={css} title="CSS" alt="CSS" />
+        <img src={js} title="JavaScript" alt="JavaScript" />
+        <img src={react} title="React" alt="React" />
+        <img src={redux} title="Redux" alt="Redux" />
+        <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
+        <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
+        <img src={node} title="Node.js" alt="Node.js" />
+        <img src={express} title="Express" alt="Express" />
+        <img src={mongodb} title="MongoDB" alt="MongoDB" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

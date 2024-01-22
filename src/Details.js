@@ -23,10 +23,17 @@ import express from "./assets/techstack/express.png";
 import mongodb from "./assets/techstack/mongodb.png";
 import python from "./assets/techstack/python.png";
 import docker from "./assets/techstack/docker.png";
+import aws from "./assets/techstack/aws.png";
+import graphql from "./assets/techstack/graphql.png";
+import redis from "./assets/techstack/redis.png";
+import next from "./assets/techstack/next.png";
+import postgresql from "./assets/techstack/postgresql.png";
+import typescript from "./assets/techstack/typescript.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
+import twitterimg from "./assets/projects/twitter.png";
+import projectImage1 from "./assets/projects/urban.png";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage3 from "./assets/projects/mi.png";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
@@ -116,10 +123,24 @@ export const techStackDetails = {
   github: github,
   django: django,
   python: python,
+  aws: aws,
+  graphql: graphql,
+  redis: redis,
+  next: next,
+  postgresql: postgresql,
+  typescript: typescript,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Twitter Clone",
+    image: twitterimg,
+    description: `Responsive Twitter clone.`,
+    techstack: "NextJs · ExpressJs · GraphQL · Prisma ORM · PostgreSQL · Redis · AWS",
+    previewLink: "https://twitter-client-ten.vercel.app/",
+    githubLink: "https://github.com/ASCE-D/twitter-clone",
+  },
   {
     title: "UrbanMarketplace",
     image: projectImage1,
@@ -140,7 +161,7 @@ export const projectDetails = [
   {
     title: "Mi Clone",
     image: projectImage3,
-    description: `Mi website clone using Reactjs`,
+    description: `Mi website clone using Reactjs, just frontend`,
     techstack: "React, CSS",
     previewLink: "https://mi-clone-ten.vercel.app/",
     githubLink: "https://github.com/ASCE-D/mi_clone",
@@ -154,9 +175,9 @@ export const projectDetails = [
     githubLink: "https://github.com/ASCE-D/reactjs_todo",
   },
   {
-    title: "Anime News Notification Pogram",
+    title: "Anime News Notification",
     image: projectImage5,
-    description: `This Program displays anime news on windows notification panel.`,
+    description: `Anime news on windows notification panel.`,
     techstack: "Python - Plyer,Beautiful Soup,Request",
     previewLink: "https://gist.github.com/ASCE-D/20c7c88ff2f65f2b1679f4b300d57cbe",
     githubLink: "https://github.com/ASCE-D/Desktop-Notifier",
