@@ -37,6 +37,8 @@ import projectImage3 from "./assets/projects/mi.png";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
+import hero from "./assets/projects/hero.webp";
+
 
 // Logos
 export const logos = {
@@ -128,11 +130,10 @@ export const techStackDetails = {
 export const projectDetails = [
   {
     title: "Insightaction",
-    // image: twitterimg,
+    image: hero,
     description: `Master your Habits with atomic precision, start tracking now.`,
     techstack: "NextJs · Server actions · Nextauth · Prisma ORM · PostgreSQL · Shadcn",
-    previewLink: "https://twitter-client-ten.vercel.app/",
-    githubLink: "https://github.com/ASCE-D/twitter-clone",
+    previewLink: "https://insightaction.vercel.app/",
 
   },
   {
