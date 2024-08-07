@@ -127,6 +127,15 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "Insightaction",
+    // image: twitterimg,
+    description: `Master your Habits with atomic precision, start tracking now.`,
+    techstack: "NextJs · Server actions · Nextauth · Prisma ORM · PostgreSQL · Shadcn",
+    previewLink: "https://twitter-client-ten.vercel.app/",
+    githubLink: "https://github.com/ASCE-D/twitter-clone",
+
+  },
+  {
     title: "Twitter Clone",
     image: twitterimg,
     description: `Responsive Twitter clone.`,
