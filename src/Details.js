@@ -51,7 +51,10 @@ export const personalDetails = {
   name: "Deepesh Genani",
   tagline: "I build things for web",
   img: profile,
-  about: `Full Stack Developer with a strong foundation in web development and a positive mindset. Passionate about creating impactful applications using MongoDB, ExpressJS, ReactJS, and NodeJS. Eager to learn and grow in a dynamic tech environment. Open to exciting opportunities in the field. `,
+  about: `Experienced Full Stack developer, with strong fundamentals & hands-on experience in building scalable, secure & fast backend APIs using TypeScript.
+My expertise lies in JS/TS technologies, including the MERN stack (MongoDB, Express.js, React.js, Node.js), PostgreSQL, NESTJs, TypeScript, Next.js, GraphQL,  AWS services & CI/CD
+I have a strong passion for learning new technologies and building innovative products. I am a quick learner and a team player who loves to work in a collaborative environment.
+`,
 };
 
 // Enter your Social Media URLs here
@@ -200,3 +203,35 @@ export const contactDetails = {
   email: "deepeshgenani@gmail.com",
   phone: "+91 7869947476",
 };
+
+export const experiences = [
+  {
+    title: "Full Stack Developer",
+    type: "Contract",
+    company: "EL's Experiences",
+    location: "Genoa, Italy (Remote)",
+    period: "Sep. 2024 - Current",
+    technologies: ["NextJS", "PostgreSQL", "Prisma", "Redis", "AWS", "Stripe", "i18n"],
+    achievements: [
+      "Built scalable reservation platform with NextJS/Prisma, serving 500+ monthly clients reducing manual booking time by 90%",
+      "Integrated WhatsApp Business API and i18n, increasing customer engagement by 40%",
+      "Built real-time parking management system using Redis and task queues, eliminating double-booking issues",
+      "Deployed AWS infrastructure with load balancing, achieving 99.9% uptime",
+      "Developed unified admin dashboard with Stripe integration for cross-app revenue tracking"
+    ]
+  },
+  {
+    title: "Backend Engineer",
+    type: "Internship",
+    company: "Walkout - B2B SaaS Platform",
+    location: "Noida (Remote)",
+    period: "Feb. 2024 - Apr. 2024",
+    technologies: ["NestJS", "PostgreSQL", "Prisma", "AWS", "Postman"],
+    achievements: [
+      "Architected and deployed production-ready MVP, reducing client onboarding time by 60%",
+      "Built scalable backend infrastructure using TypeSafe NestJS and PostgreSQL with Prisma, handling 1000+ daily transactions",
+      "Implemented AWS cost optimization, reducing cloud expenses by 30% through efficient EC2 and S3 usage",
+      "Achieved 99.9% API reliability through comprehensive Postman testing and monitoring"
+    ]
+  }
+]

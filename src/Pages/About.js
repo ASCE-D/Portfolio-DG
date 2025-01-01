@@ -29,7 +29,7 @@ function About() {
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Education
+          Experience
         </h1>
         {React.Children.toArray(
           eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
@@ -39,6 +39,23 @@ function About() {
               location={Location}
               type={Type}
               duration={Duration}
+            />
+          ))
+        )}
+      </section>
+      <section>
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Experience
+        </h1>
+        {React.Children.toArray(
+          experiences.map(({ title, company, location, type, period, achievements }) => (
+            <Work
+              position={title}
+              company={company}
+              location={location}
+              type={type}
+              duration={period}
+              achievements={achievements}
             />
           ))
         )}
